@@ -9,7 +9,7 @@ int main() {
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             for (int k = 0; k < 2; k++) {
-                // TODO: Realiza las operaciones solo usando apuntadores
+                *(ptrC+i*2+j) +=  *(ptrA+i*2+K)  * *(ptrB+K);
             }
         }
     }
